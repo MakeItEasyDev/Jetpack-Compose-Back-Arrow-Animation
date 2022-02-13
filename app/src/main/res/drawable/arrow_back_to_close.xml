@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/ic_arrow_back">
+
+    <target android:name="@string/vector_animation_path_name">
+        <aapt:attr name="android:animation">
+
+            <objectAnimator
+                android:duration="@integer/animation_duration"
+                android:interpolator="@android:interpolator/accelerate_decelerate"
+                android:propertyName="pathData"
+                android:valueFrom="@string/arrow_back_path"
+                android:valueTo="@string/close_path"
+                android:valueType="pathType" />
+
+        </aapt:attr>
+    </target>
+
+    <target android:name="@string/vector_animation_group_name">
+        <aapt:attr name="android:animation">
+
+            <objectAnimator
+                android:duration="@integer/animation_duration"
+                android:interpolator="@android:interpolator/accelerate_decelerate"
+                android:propertyName="rotation"
+                android:valueFrom="@integer/rotation_arrow_back"
+                android:valueTo="@integer/rotation_close"
+                android:valueType="floatType" />
+
+        </aapt:attr>
+    </target>
+
+</animated-vector>

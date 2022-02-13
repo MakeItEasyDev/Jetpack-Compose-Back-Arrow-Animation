@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BackArrowAnimation</string>
+
+    <string name="arrow_back_path">M12,4 L13.4,5.4 L6.8,12 L13.4,18.6 L12,20 L4,12z M6,11 L20,11 L20,13 L6,13z</string>
+    <string name="close_path">M17.6,5 L19,6.4 L13.4,12 L6.4,19 L5,17.6 L10.6,12z M6.4,5 L19,17.6 L17.6,19 L5,6.4z</string>
+    <string name="vector_animation_path_name">animationpathname</string>
+    <string name="vector_animation_group_name">animationgroup</string>
+</resources>
